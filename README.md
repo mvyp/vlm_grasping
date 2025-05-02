@@ -11,7 +11,7 @@ This demo has been tested on
 * Ubuntu 24.04 + Pyhton 3.12 + RTX 4060 Ti + CUDA 12.1
 
 ## Installation
-Create a Python vistual environment.
+Create a Python virtual environment.
 ```sh
 python -m venv ~/venvs/vlm
 ```
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ```
 
 ## Demo
-Before running the demo, setup `google_gemini_api_key` and `sam2_directory` in [config/config.yaml](https://github.com/mvyp/vlm_grasping/config/config.yaml):
+Before running the demo, setup `google_gemini_api_key` and `sam2_directory` in [config/config.yaml](https://github.com/mvyp/vlm_grasping/blob/main/config/config.yaml):
 ```yaml
 google_gemini_api_key: # Use your own API key
 sam2_directory: # For example: /home/zhengxiao-han/sam2
