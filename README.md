@@ -1,3 +1,7 @@
+# VLM Grasping
+This is a demo combining [Google Gemini](https://gemini.google.com/) and [Segment Anything Model 2 (SAM 2)](https://github.com/facebookresearch/sam2) for open-vocabulary manipulation tasks.
+![teaser](docs/architecture.png)
+
 ## Installation
 Create a Python vistual environment.
 ```sh
