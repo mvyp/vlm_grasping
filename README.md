@@ -3,8 +3,6 @@ This is a demo combining [Google Gemini](https://gemini.google.com/) and [Segmen
 
 ![teaser](docs/architecture.png)
 
-![vita lemon tea](docs/demo_detect_object_bbox.png)
-
 ## Laptop/Workstation Setup
 This demo has been tested on
 * Ubuntu 22.04 + Pyhton 3.10 + RTX 4060 Laptop + CUDA 12.1
