@@ -1,11 +1,9 @@
 # VLM Grasping
 This is a demo combining [Google Gemini](https://gemini.google.com/) and [Segment Anything Model 2 (SAM 2)](https://github.com/facebookresearch/sam2) for open-vocabulary manipulation tasks.
+
 ![teaser](docs/architecture.png)
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="docs/demo_detect_object_bbox.png" alt="Image with Bounding Box" style="width: 45%;"/>
-  <img src="docs/demo_detect_object_mask.png" alt="Image with Mask" style="width: 45%;" />
-</div>
+![vita lemon tea](docs/demo_detect_object_bbox.png)
 
 ## Laptop/Workstation Setup
 This demo has been tested on
