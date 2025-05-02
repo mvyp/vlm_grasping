@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 from PIL import Image
+import yaml
+
 
 class BoundingBox2D:
     def __init__(self, y_min, x_min, y_max, x_max):
@@ -19,10 +21,13 @@ class BoundingBox2D:
         return iter((self.y_min, self.x_min, self.y_max, self.x_max))
 
 
+def load_config_from_yaml(yaml_path: str):
+    with open(yaml_path, 'r') as file:
+        config = yaml.safe_load(file)
+    return config
+
 def draw_bbox_on_image(image: Image.Image,
                        bbox_dict: dict):
-    # Open the image using PIL
-    actual_width, actual_height = image.size
     # Convert the PIL image to a NumPy array (which OpenCV can use)
     image = np.array(image)
     # Convert the image from RGB to BGR for OpenCV
